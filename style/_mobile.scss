@@ -1,0 +1,173 @@
+@media only screen and (max-width: 530px) {
+  .container::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .header {
+    &__navigation {
+      .btn-color {
+        padding: 7px 14px;
+        font-size: 14px;
+      }
+    }
+    &__navitem {
+      margin: 1rem 1rem;
+    }
+    &__navmenu {
+      margin-right: 0;
+    }
+    &__text {
+      margin-left: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .header {
+    &__content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__text {
+      margin-top: 2rem;
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .header {
+    &__img {
+      margin-top: 1rem;
+      width: 90%;
+      height: auto;
+    }
+    &__text {
+      margin-left: 1rem;
+      &--greetings {
+        font-size: 22px;
+      }
+      &--intro {
+        font-size: 26px;
+      }
+      &--desig {
+        font-size: 18px;
+      }
+      .btn-color {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .about {
+    flex-wrap: wrap-reverse;
+    margin-top: 58rem;
+    justify-content: center;
+    &__text {
+      padding-right: 1rem;
+      margin-left: -2rem;
+      &--title {
+        font-size: 22px;
+      }
+      &--desc {
+        font-size: 14px;
+      }
+      &--desc2 {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .about {
+    margin-top: 48rem;
+    .btn-color {
+      padding: 14px 14px;
+      font-size: 14px;
+    }
+    .btn {
+      padding: 14px 14px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .about {
+    margin-top: 12rem;
+  }
+}
+
+@media only screen and (max-width: 530px) and(max-height:780px) {
+  .about {
+    margin-top: 20rem;
+  }
+}
+
+@media only screen and (max-height: 680px) and( max-width:530px) {
+  .about {
+    margin-top: 30rem;
+  }
+}
+
+@media only screen and (max-height: 570px) and( max-width:530px) {
+  .about {
+    margin-top: 37rem;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .skill {
+    margin-right: 2rem !important;
+  }
+  .skills {
+    &__text {
+      &--title {
+        font-size: 22px !important;
+      }
+    }
+    &__about {
+      &--list {
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 660px) {
+  .skills {
+    padding-left: 15px !important;
+    height: 315vh !important;
+
+    &__text {
+      width: 100% !important;
+      margin-right: 5px;
+      &--desc {
+        font-size: 14px;
+      }
+    }
+    &__progress {
+      justify-content: center;
+      &--container {
+        width: 300px !important;
+      }
+    }
+    &__about {
+      flex-wrap: wrap;
+      &--list {
+        margin-right: 4rem !important;
+      }
+    }
+  }
+}
+// @media only screen and (max-width: 800px) {
+//   .about {
+//     &__img {
+//       width: 500px;
+//     }
+//   }
+// }

@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+  &__text {
+    padding-left: 3rem;
+    color: white;
+    width: 500px;
+
+    &--title {
+      font-size: 30px;
+    }
+
+    &--desc {
+      line-height: 28px;
+      font-weight: 400;
+    }
+    &--desc2 {
+      margin-top: 2rem;
+      line-height: 28px;
+    }
+    .btn{
+        margin: 2rem;
+    }
+  }
+
+  &__img {
+    width: 800px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

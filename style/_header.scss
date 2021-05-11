@@ -1,0 +1,56 @@
+.header {
+  height: 100vh;
+  scroll-snap-align: center;
+
+  &__navlist {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__navitem {
+    list-style: none;
+    margin: 2rem 1rem;
+  }
+  &__navmenu {
+    margin-right: 4rem;
+    cursor: pointer;
+  }
+  &__content {
+    display: flex;
+    width: 100%;
+  }
+  &__img {
+    width: 511px;
+    height: 515px;
+  }
+  &__text {
+    width: 481px;
+    color: white;
+    margin-left: 13rem;
+    &--greetings {
+      font-style: normal;
+      font-size: 45px;
+      font-weight: 600;
+    }
+    &--intro {
+      font-size: 38px;
+      line-height: 10px;
+    }
+    &--name {
+      color: #ef4b75;
+    }
+    &--desig {
+      font-size: 22px;
+      line-height: 10px;
+    }
+    &--about {
+      margin-top: 3rem;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .btn-color {
+      margin-top: 2rem;
+    }
+  }
+}

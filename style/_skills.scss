@@ -1,0 +1,76 @@
+.skills {
+  padding-top: 12rem;
+  height: 105vh;
+  scroll-snap-align: end;
+  padding-left: 4rem;
+  &__title {
+    color: white;
+  }
+  &__text {
+    color: white;
+    width: 500px;
+    &--title {
+      font-size: 30px;
+    }
+
+    &--desc {
+      line-height: 28px;
+      font-weight: 400;
+    }
+  }
+  &__progress {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    .skill {
+      margin-right: 8rem;
+      margin-top: 1rem;
+      &__container {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    &--container {
+      width: 260px;
+      background-color: #e4e4e4;
+    }
+    &--skill {
+      height: 17px;
+      background-color: #ee3a68;
+    }
+    .html {
+      width: 95%;
+    }
+    .css {
+      width: 93%;
+    }
+    .js {
+      width: 98%;
+    }
+  }
+
+  .skills {
+    &__about {
+      display: flex;
+
+      &--txt {
+        color: white;
+      }
+      &--list {
+        padding: 0;
+        margin-right: 8rem;
+      }
+      &--item {
+        display: flex;
+        align-items: baseline;
+      }
+    }
+  }
+  .btn-color {
+    position: relative;
+    top: 0%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+  }
+}
